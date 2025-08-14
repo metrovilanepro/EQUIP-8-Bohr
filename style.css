@@ -1,0 +1,638 @@
+html, body {
+    margin: 0;
+}
+#div1 {
+    background-color: #cd0000;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+    border: 0px;
+    height: 200px;
+    padding: 3px;
+}
+#p1 {
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 1px;
+}
+#p2 {
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+#p3 {
+    font-size: 75px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    font-family: 'Segoe Black';
+}
+#p4 {
+    text-align: left;
+    font-family: 'Corbel';
+    font-size: 25px;
+    margin-bottom: 1px;
+    text-align: justify;
+    width: 1000px;
+    text-indent: 4em;
+}
+#p5 {
+    font-family: 'Georgia';
+    font-size: 20px;
+    margin-top: px;
+    margin-bottom: 1px;
+    width: 1000px;
+}
+#p6{
+    margin: 6;
+    padding: 0;
+    color: white;
+    font-family: 'Bahnschrift';
+    margin-right: 20px;
+}
+#p7{
+    font-family: 'Segoe Print';
+}
+#p8{
+    font-family: 'Segoe Black';
+    font-size: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#p9{
+    font-family: 'Corbel';
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 1300px;
+}
+#p10{
+    font-size: 150px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    font-family: 'Segoe Black';
+}
+#p11{
+    text-align: left;
+    font-family: 'Corbel';
+    font-size: 30px;
+    text-indent: 4em;
+    margin-bottom: 1px;
+    width: 1000px;
+}
+#p12{
+    font-size: 100px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    font-family: 'Segoe Black';
+}
+#p13{
+    font-size: 50px;
+    margin-top: 75px;
+    margin-bottom: -40px;
+    font-family: 'Segoe Black';
+}
+#p14{
+    font-size: 150px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-family: 'Segoe Black';
+}
+#p15{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Corbel';
+}
+#p17{
+    font-size: 150px;
+    margin-top: 75px;
+    margin-bottom: 0px;
+    font-family: 'Segoe Black';
+}
+#p18{
+    font-size: 30px;
+    margin-top: 0px;
+    font-family: 'Corbel';
+}
+#p19{
+    text-align: left;
+    font-family: 'Corbel';
+    font-size: 25px;
+    margin-bottom: 1px;
+    text-align: justify;
+    width: 1000px;
+    text-indent: 4em;
+}
+#p20{
+    margin-top: 150px;
+    font-size: 30px;
+    font-family: 'Segoe Black';
+}
+.contributeList{
+    width: 350px;
+}
+.contributeList p{
+    font-size: 20px;
+    font-family: 'Segoe Black';
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #a20000;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar a{
+    font-family: 'Bahnschrift';
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    border: 4px solid #a20000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #e20000;
+}
+.divli li{
+    float: left;
+}
+#li1{
+    float: right;
+}
+#hr1t{
+    border: none;
+    height: 100px;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    margin-bottom: 0;
+}
+#hr2{
+    border: none;
+    height: 100px;
+    background: linear-gradient(to bottom, #a20000, #a2000000);
+    margin: 0;
+}
+#hr3{
+    border: none;
+    height: 100px;
+    background: linear-gradient(to bottom, #ff0000, #000000);
+    margin: 0;
+}
+#hr4{
+    border: none;
+    height: 50px;
+    background: linear-gradient(to bottom, #000000, #00000000);
+    margin: 0;
+}
+#hr5{
+    border: none;
+    height: 50px;
+    background: linear-gradient(to top, #ff0000, #00000000);
+    margin: 0;
+}
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+#table1{
+    font-family: 'Corbel';
+    min-width: 300px;
+    min-height: 100px;
+    color: white;
+    text-align: center;
+}
+#blue{
+    background-color:#cb0000;
+    font-size: 25px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+#white{
+    background-color: #373737;
+    font-size: 25px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+#aspf{
+    font-family: "Jetbrains Mono";
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    width: 100px;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    border: 4px solid rgb(160, 0, 0);
+    border-radius: 5px;
+}
+#aspb{
+    font-family: "Jetbrains Mono";
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    width: 100px;
+    background-color: #515151;
+    color: rgb(255, 255, 255);
+    border: 4px solid rgb(37, 37, 37);
+    border-radius: 5px;
+}
+#imgdiv{
+    padding: 10px;
+    background-color: #272727;
+    border: 5px solid #000000;
+    border-radius: 10px;
+}
+#imgdiv2{
+    padding: 5px;
+    background-color: #ff0000;
+    border: 5px solid #840000;
+    border-radius: 20px;
+}
+#imgdiv3{
+    padding: 10px;
+    background-color: #ff0000;
+    border: 5px solid #840000;
+    border-radius: 10px;
+    margin: 50px;
+}
+#imgdiv4{
+    padding: 10px;
+    background-color: #ff0000;
+    border: 5px solid #840000;
+    border-radius: 10px;
+    margin: 50px;
+}
+.footer{
+    background-color: #000000;
+    font-weight: bold;
+    color: white;
+    bottom: 0;
+    left: 0;
+    margin-top: none;
+    margin-bottom: none;
+    border: 0px;
+    height: 200px;
+    padding: 3px;;
+}
+#img1{
+    width: 675px;
+}
+#img2{
+    height: 489px;
+}
+#img3{
+    width: 700px;
+}
+#img4{
+    width: 400px;
+    border: 4px solid #000000;
+}
+#img5{
+    width: 400px;
+    border: 4px solid #980000;
+}
+#img6{
+    width: 400px;
+    border: 4px solid #000000;
+}
+#img7{
+    width: 300px;
+    border: 4px solid #980000;
+}
+#img8{
+    width: 300px;
+    border: 4px solid #000000;
+}
+#img9{
+    width: 300px;
+    border: 4px solid #000000;
+}
+#img10{
+    width: 300px;
+    border: 4px solid #980000;
+}
+#img11{
+    width: 1200px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+}
+#img12{
+    width: 600px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+}
+#img13{
+    width: 600px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+}
+.fadeInUi{
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+@keyframes fadeInUp{
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media screen and (max-width:1100px){
+    #li1{
+        float: left;
+    }   
+}
+@media screen and (max-width:600px){
+    #div1 {
+        background-color: #cd0000;
+        font-family: 'Century Gothic';
+        color: white;
+        margin: 0px;
+        border: 0px;
+        height: 150px;
+        padding: 3px;
+    }
+    #p1 {
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 1px;
+    }
+    #p2 {
+        font-size: 25px;
+        margin-top: 5px;
+        margin-bottom: 1px;
+    }
+    #p3 {
+        font-size: 50px;
+        margin-top: 50px;
+        width: 300px;
+        margin-bottom: 20px;
+        font-family: 'Segoe Black';
+
+    }
+    #p4 {
+        text-align: left;
+        font-family: 'Corbel';
+        font-size: 25px;
+        text-align: justify;
+        margin-bottom: 1px;
+        width: 400px;
+    }
+    #p5 {
+        font-family: 'Georgia';
+        font-size: 20px;
+        margin-top: px;
+        margin-bottom: 1px;
+        width: 1000px;
+    }
+    #p6{
+        margin: 6;
+        padding: 0;
+        color: white;
+        font-family: 'Bahnschrift';
+        margin-right: 20px;
+    }
+    #p7{
+        font-family: 'Segoe Print';
+    }
+    #p8{
+        font-family: 'Segoe Black';
+        font-size: 70px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #p9{
+        font-family: 'Corbel';
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 400px;
+    }
+    #p10{
+        font-size: 60px;
+        margin-top: 75px;
+        margin-bottom: 50px;
+        font-family: 'Segoe Black';
+    }
+    #p11{
+        text-align: left;
+        font-family: 'Corbel';
+        font-size: 25px;
+        text-align: justify;
+        margin-bottom: 1px;
+        width: 400px;
+    }
+    #p12{
+        font-size: 50px;
+        margin-top: 75px;
+        margin-bottom: 50px;
+        font-family: 'Segoe Print';
+    }
+    #p13{
+        font-size: 50px;
+        margin-top: 0px;
+        margin-bottom: -70px;
+        font-family: 'Segoe Print';
+    }
+    #p14{
+        font-size: 80px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: 'Segoe Black';
+    }
+    #p15{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Corbel';
+    }
+    #p16{
+        font-size: 50px;
+        margin-top: 75px;
+        margin-bottom: -90px;
+        font-family: 'Segoe Print';
+    }
+    #p17{
+        font-size: 120px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: 'Segoe Black';
+    }
+    #p18{
+        font-size: 25px;
+        margin-top: -25px;
+        margin-bottom: 0px;
+        font-family: 'Corbel';
+    }
+    #p19{
+        text-align: left;
+        font-family: 'Corbel';
+        font-size: 25px;
+        text-align: justify;
+        margin-bottom: 1px;
+        width: 400px;
+    }
+    .navbar ul{
+        list-style-type: none;
+        background-color: #a20000;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .navbar a{
+        font-family: 'Bahnschrift';
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        border: 4px solid #a20000;
+        border-radius: 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .navbar a:hover{
+        background-color: #e20000;
+    }
+    .divli li{
+        float: none;
+    }
+    #li1{
+        float: right;
+    }
+    #hr1{
+        height: 2px;
+        background-color: black;
+    }
+    .flexContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        margin: 20px;
+    }
+    #table1{
+        font-family: 'Corbel';
+        min-width: 300px;
+        min-height: 100px;
+        text-align: center;
+    }
+    #blue{
+        background-color:#cb0000;
+        font-size: 25px;
+        border: 3px solid black;
+        border-radius: 5px;
+    }
+    #white{
+        background-color: #373737;
+        font-size: 25px;
+        border: 3px solid black;
+        border-radius: 5px;
+    }
+    #aspf{
+        font-family: "Jetbrains Mono";
+        display: inline-block;
+        padding: 10px;
+        font-size: 20px;
+        width: 100px;
+        background-color: #ff0000;
+        color: rgb(255, 255, 255);
+        border: 4px solid rgb(160, 0, 0);
+        border-radius: 5px;
+    }
+    #aspb{
+        font-family: "Jetbrains Mono";
+        display: inline-block;
+        padding: 10px;
+        font-size: 20px;
+        width: 100px;
+        background-color: #515151;
+        color: rgb(255, 255, 255);
+        border: 4px solid rgb(37, 37, 37);
+        border-radius: 5px;
+    }
+    #imgdiv{
+        padding: 10px;
+        background-color: #272727;
+        border: 5px solid #000000;
+        border-radius: 10px;
+    }
+    #imgdiv2{
+        padding: 10px;
+        background-color: #ff0000;
+        border: 5px solid #840000;
+        border-radius: 20px;
+    }
+    #imgdiv3{
+        background-color: #ff0000;
+        border: 5px solid #840000;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    #imgdiv4{
+        padding: 10px;
+        background-color: #ff0000;
+        border: 5px solid #840000;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    #img1{
+        width: 350px;
+    }
+    #img2{
+        height: 650px;
+    }
+    #img3{
+        width: 350px;
+    }
+    #img4{
+        width: 400px;
+        border: 4px solid #000000;
+    }
+    #img5{
+        width: 400px;
+        border: 4px solid #980000;
+    }
+    #img6{
+        width: 400px;
+        border: 4px solid #000000;
+    }
+    #img7{
+        width: 400px;
+        border: 4px solid #980000;
+    }
+    #img8{
+        width: 400px;
+        border: 4px solid #000000;
+    }
+    #img9{
+        width: 400px;
+        border: 4px solid #980000;
+    }
+    #img10{
+        width: 400px;
+        border: 4px solid #000000;
+    }
+    #img11{
+        width: 400px;
+        border: 5px solid #000000;
+        border-radius: 10px;
+    }
+    #img12{
+        width: 400px;
+        border: 5px solid #000000;
+        border-radius: 10px;
+    }
+    #img13{
+        width: 400px;
+        border: 5px solid #000000;
+        border-radius: 10px;
+    }
+}
