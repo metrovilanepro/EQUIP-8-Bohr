@@ -428,7 +428,7 @@ html, body {
         font-size: 25px;
         margin-top: 20px;
         margin-bottom: 50px;
-        width: 400px;
+        max-width: 300px;
     }
     #p10{
         font-size: 60px;
@@ -609,7 +609,7 @@ html, body {
         height: 450px;
     }
     #img3{
-        width: 350px;
+        width: 250px;
     }
     #img4{
         width: 300px;
@@ -655,6 +655,7 @@ html, body {
         border-radius: 10px;
     }
 }
+
 
 
 
