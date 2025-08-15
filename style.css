@@ -428,7 +428,7 @@ html, body {
         font-size: 25px;
         margin-top: 20px;
         margin-bottom: 50px;
-        width: 300px;
+        width: 250px;
     }
     #p10{
         font-size: 60px;
@@ -655,6 +655,7 @@ html, body {
         border-radius: 10px;
     }
 }
+
 
 
 
