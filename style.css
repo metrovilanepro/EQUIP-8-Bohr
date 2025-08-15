@@ -81,7 +81,7 @@ html, body {
     text-align: justify;
     margin-top: 20px;
     margin-bottom: 50px;
-    width: 1600px;
+    width: 1000px;
 }
 #p10{
     font-size: 150px;
@@ -655,6 +655,7 @@ html, body {
         border-radius: 10px;
     }
 }
+
 
 
 
