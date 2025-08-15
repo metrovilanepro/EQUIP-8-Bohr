@@ -12,7 +12,7 @@
 }
 @font-face {
     font-family: 'Century Gothic';
-    src: url(Fonts/GOTHIC.ttf)
+    src: url(GOTHIC.TTF)
 }
 html, body {
     margin: 0;
@@ -655,5 +655,6 @@ html, body {
         border-radius: 10px;
     }
 }
+
 
 
